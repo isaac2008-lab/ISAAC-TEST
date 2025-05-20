@@ -55,4 +55,32 @@ quantia += 50
 quantia -= 30
 console.log(quantia )
 
+console.log(5 == '5')
+console.log(5 === '5')
 
+let idade = 18
+
+console.log(idade>=18)
+let senhacerta = '1234'
+let senhadigitada = '1234'
+console.log(senhacerta === senhadigitada)
+
+let temperatura = 47
+
+
+if (temperatura > 30){
+    console.log("Esta quente")
+}
+else{
+    console.log("Esta frio")
+}
+
+console.log(true && false)
+console.log(true|| false)
+
+let age = 20
+let temcarteira = true
+let podedirigir = idade>=18 && temcarteira
+console.log('Pode dirigir?' , podedirigir)
+
+    
