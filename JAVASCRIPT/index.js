@@ -1,6 +1,6 @@
-let mensagem1 = "OLA"
-let mensagem2 = "a^p = p (mod p)"
-let mensagem3 = "Se p não q , p q ?"
+let mensagem1 = "a"
+let mensagem2 = "b"
+let mensagem3 = "c"
 
 console.log(mensagem1)
 console.log(mensagem2)
@@ -65,7 +65,7 @@ let senhacerta = '1234'
 let senhadigitada = '1234'
 console.log(senhacerta === senhadigitada)
 
-let temperatura = 47
+let temperatura =12
 
 
 if (temperatura > 30){
@@ -83,4 +83,23 @@ let temcarteira = true
 let podedirigir = idade>=18 && temcarteira
 console.log('Pode dirigir?' , podedirigir)
 
-    
+console.log("Ta quente?", temperatura>30)
+
+let age2 = 17
+if(age2 >= 18){
+ console.log("Maior de idade")
+}else {
+    console.log("Menor de idade")
+}
+
+let NOTA = 7
+if (NOTA >=7){
+    console.log("Aprovado")
+}else if (NOTA>= 5){
+    console.log("Recuperação")
+}else{
+    console.log("Reprovado")
+}
+ 
+
+
