@@ -134,3 +134,31 @@ let carro ={
    automatico:null,
 }
 console.log("o carro modelo Civic do ano 2020 é automático?" , carro.ano >= 2020 ? carro.automatico = true : carro.automatico = false)
+
+let escola = [
+{ nome: "isaac",
+  turno : "noite",
+  idade : 16},
+{
+ nome: "ana",
+ turno:"tarde",
+ idade:12}
+]
+console.log(escola[0].turno)
+
+let tarefas= ["Lavar roupas" , "estudar js", "ir ao mercado"]
+console.log("Tarefas hoje:")
+console.log("- " + tarefas[0])
+console.log("- " + tarefas[1])
+console.log("- " + tarefas[2])
+
+let linguagens = ["Js" , "py" ,"C++"]
+linguagens.push("Lua")
+console.log("Minhas linguagens preferidas são: " , linguagens[0] + ",", linguagens[1] + ",", linguagens[2]+"," , linguagens[3])
+console.log(linguagens)
+
+let contador = 1
+while(contador<= 3){
+    console.log("Repetição" , contador)
+    contador = contador + 1
+}
