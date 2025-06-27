@@ -167,8 +167,9 @@ while(contador<= 3){
 const fs = require('fs') 
 const dados =  fs.readFileSync('dados.json' , 'utf-8')
 const usuarios = JSON.parse(dados)
+console.log(usuarios)
 usuarios.push({"id" : 3 , "nome" : "isaac" , "idade" : 16})
 
 console.log(usuarios)
-fs.writeFileSync('dados.json' , JSON.stringify , (usuarios,null,2))
+fs.writeFileSync('dados.json' , JSON.stringify (usuarios,null,2))
 
