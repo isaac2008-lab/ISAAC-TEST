@@ -162,3 +162,13 @@ while(contador<= 3){
     console.log("Repetição" , contador)
     contador = contador + 1
 }
+
+
+const fs = require('fs') 
+const dados =  fs.readFileSync('dados.json' , 'utf-8')
+const usuarios = JSON.parse(dados)
+usuarios.push({"id" : 3 , "nome" : "isaac" , "idade" : 16})
+
+console.log(usuarios)
+fs.writeFileSync('dados.json' , JSON.stringify , (usuarios,null,2))
+
